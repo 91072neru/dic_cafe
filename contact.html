@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>DIC cafe</title>
+  </head>
+  <body>
+    <header id="#top">
+        <a href="index.html"><img src="images/sample_logo_k.png"></a>
+        <nav>
+        <ul>
+          <a href="file:///C:/Users/dc390/dic_cafe/index.html#"><li>Home</li></a>
+          <a href="#"><li>Menu</li></a>
+          <a href="file:///C:/Users/dc390/dic_cafe/contact.html"><li>Contact</li></a>
+        </ul>
+      </nav>    
+    </header>
+    <section class="section_inner">
+      <div class="section_title">
+        <h1>CONTACT</h1>
+        <p>お問い合わせ</p>
+      </div>
+      <form action="#" method="POST">
+        <table>
+          <tr>
+            <td><label>お名前</label></td>
+            <td><input type="text" name="name" id="name" placeholder="れん"></td>
+          </tr>
+          <tr>
+            <td><label>ご連絡先</label></td>
+            <td><input type="tel" name="phonenumber" id="phonenumber" placeholder="080xxxxoooo"></td>
+          </tr>
+          <tr>
+            <td><label for="region">お住いの地域</label></td>
+            <td><select id="region">
+                <option value="0">選択してください</option>
+                <option value="1">北海道</option>
+                <option value="2">東北</option>
+                <option value="3">関東</option>
+                <option value="4">中部</option>
+                <option value="5">近畿</option>
+                <option value="6">中国・四国</option>
+                <option value="7">九州</option>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="content">内容</label></td>
+            <td><input type="text" name="content" id="content" placeholder="よろしくお願いします。"></td>
+          </tr>
+        </table>
+        <button type="reset">リセット</button>
+        <button type="submit">送信する</button>
+      </form>
+    </section>
+
+    <h1>お問い合わせ</h1>
+    <form action="#" method="GET">
+      <label for="name">名前</label>
+      <input type="text" name="name" id="name" placeholder="れん" required>
+      <button type="submit">送信</button>
+    </form>
+    <form action="#" method="POST">
+      <label for="mail">Email</label>
+      <input type="email" name="mail" id="mail" placeholder="ren@gmail.com" required>
+      <button type="submit">送信</button>
+    </form>
+    <form action="#" method="POST">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="ren1234" required>
+      <button type="submit">送信</button>
+    </form>
+    <form action="#" method="POST">
+      <label for="yurai">名前の由来</label>
+      <br>
+      <textarea name="note" name="yurai" id="yurai" cols="100" rows="5" placeholder="夏生まれなので"></textarea>
+      <button type="submit">送信</button>
+    </form>
+    <hr>
+    <form action="#" method="POST">
+      <label for="1">1</label>
+      <input type="radio" name="point" id="1" value="1">
+      <label for="2">2</label>
+      <input type="radio" name="point" id="2" value="2">
+      <label for="3">3</label>
+      <input type="radio" name="point" id="3" value="3">
+      <br>
+      <button type="submit">送信</button>
+    </form>
+    <h1>興味のあること</h1>
+    <form action="#" method="POST">
+      <input type="checkbox" name="point" id="programing" value="1">
+      <label for="programing">プログラミング</label>
+      <input type="checkbox" name="point" id="design" value="2">
+      <label for="design">デザイン</label>
+      <input type="checkbox" name="point" id="mechanical_learning" value="3">
+      <label for="mechanical_learning">機械学習</label>
+      <br>
+      <button type="submit">送信</button>
+    </form>
+    <h1>新規登録</h1>
+    <form action="#" method="POST">
+      <label for="birth_month">誕生月</label>
+      <select name="birth_month" id="birth_month">
+        <option value="" selected>選択してください</option>
+        <option value="1">1月</option>
+        <option value="2">2月</option>
+        <option value="3">3月</option>
+        <option value="4">4月</option>
+        <option value="5">5月</option>
+        <option value="6">6月</option>
+        <option value="7">7月</option>
+        <option value="8">8月</option>
+        <option value="9">9月</option>
+        <option value="10">10月</option>
+        <option value="11">11月</option>
+        <option value="12">12月</option>
+      </select>
+      <button type="submit">送信</button>
+    </form>
+  <footer>
+    <nav>
+      <a href="file:///C:/Users/dc390/dic_cafe/index.html#"><img src="images/sample_logo_w.png"></a>
+      <ul>
+        <a href="file:///C:/Users/dc390/dic_cafe/index.html#"><li>Home</li></a>
+        <a href="#"><li>Menu</li></a>
+        <a href="file:///C:/Users/dc390/dic_cafe/contact.html"><li>Contact</li></a>
+      </ul>
+    </nav>
+    <p>© DIVIC Corp. All RIGHTS RESERVED.</p>
+  </footer>
+</html>
